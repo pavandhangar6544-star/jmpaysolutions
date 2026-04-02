@@ -116,7 +116,12 @@ export function GRCImplementationProcess() {
                 teal: { bg: "bg-teal-500", border: "border-teal-200" },
                 orange: { bg: "bg-orange-500", border: "border-orange-200" },
                 green: { bg: "bg-green-500", border: "border-green-200" },
-              }[step.color];
+              }[
+                step.color as "emerald" | "blue" | "teal" | "orange" | "green"
+              ] || {
+                bg: "bg-emerald-600",
+                border: "border-emerald-200",
+              };
 
               return (
                 <div key={index} className="relative">

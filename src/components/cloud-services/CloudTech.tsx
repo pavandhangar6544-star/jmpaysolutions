@@ -39,7 +39,7 @@ export function CloudTech() {
           {Object.entries(technologies).map(([category, techs]) => (
             <div
               key={category}
-              className="bg-white border border-slate-200 rounded-2xl p-8"
+              className="bg-gradient-to-br from-slate-50 to-white border border-slate-200 rounded-2xl p-8 hover:shadow-xl hover:border-sky-200 transition-all"
             >
               <div className="w-16 h-16 bg-gradient-to-br from-sky-600 to-sky-700 rounded-xl flex items-center justify-center mb-6 shadow-lg">
                 <Cloud className="text-white" size={32} />

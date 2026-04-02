@@ -85,8 +85,8 @@ export function CheckoutExperience() {
 
             <div className="space-y-4 pt-4">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Zap className="text-[#1e40af]" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <Zap className="text-white" size={24} />
                 </div>
                 <div>
                   <h4 className="text-[#0f172a] mb-1" style={{ fontWeight: 600 }}>Fast Response</h4>
@@ -97,8 +97,8 @@ export function CheckoutExperience() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Smartphone className="text-[#14b8a6]" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-teal-600 to-teal-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <Smartphone className="text-white" size={24} />
                 </div>
                 <div>
                   <h4 className="text-[#0f172a] mb-1" style={{ fontWeight: 600 }}>Mobile Optimized</h4>
@@ -109,8 +109,8 @@ export function CheckoutExperience() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Shield className="text-[#10b981]" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <Shield className="text-white" size={24} />
                 </div>
                 <div>
                   <h4 className="text-[#0f172a] mb-1" style={{ fontWeight: 600 }}>Secure Transaction Flow</h4>

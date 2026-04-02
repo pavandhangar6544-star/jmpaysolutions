@@ -87,7 +87,8 @@ export function WebDevHero() {
           <div className="relative">
             <div className="relative bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 shadow-2xl">
               <div className="aspect-video bg-gradient-to-br from-violet-500/20 to-blue-500/20 rounded-xl border border-white/10 flex items-center justify-center">
-                <Globe className="text-violet-400" size={80} />
+                {/* <Globe className="text-violet-400" size={80} /> */}
+                <img src="/public/images/Custom-Website-Development.webp" alt="" className="w-full h-full rounded-xl"/>
               </div>
               <div className="mt-4 grid grid-cols-3 gap-2">
                 {[

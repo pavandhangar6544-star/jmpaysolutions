@@ -144,7 +144,13 @@ export function BBPSIntegrationProcess() {
                   light: "bg-green-50",
                   border: "border-green-200",
                 },
-              }[step.color];
+              }[
+                step.color as "purple" | "blue" | "teal" | "orange" | "green"
+              ] || {
+                bg: "bg-purple-600",
+                light: "bg-purple-50",
+                border: "border-purple-200",
+              };
 
               return (
                 <div key={index} className="relative">

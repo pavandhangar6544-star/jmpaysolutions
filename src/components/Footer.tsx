@@ -14,16 +14,16 @@ export function Footer() {
               Leading provider of payment gateway solutions, SaaS products, and enterprise software for modern businesses.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-[#1e40af] transition-colors">
+              <a href="https://www.facebook.com/Crushpeofficial/" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-[#1e40af] transition-colors">
                 <Facebook size={20} />
               </a>
               <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-[#1e40af] transition-colors">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-[#1e40af] transition-colors">
+              <a href="https://in.linkedin.com/company/crushpe-payment-solution" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-[#1e40af] transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-[#1e40af] transition-colors">
+              <a href="https://www.instagram.com/it_crushpe/" className="w-10 h-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-[#1e40af] transition-colors">
                 <Instagram size={20} />
               </a>
             </div>
@@ -57,18 +57,19 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Mail size={20} className="flex-shrink-0 mt-0.5 text-[#3b82f6]" />
                 <a href="mailto:sales@jmpaysolutions.com" className="hover:text-[#3b82f6] transition-colors">
-                  sales@jmpaysolutions.com
+                  support@jmpaysolutions.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={20} className="flex-shrink-0 mt-0.5 text-[#3b82f6]" />
                 <a href="tel:+911234567890" className="hover:text-[#3b82f6] transition-colors">
-                  +91 (123) 456-7890
+                  +91 9653271371
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="flex-shrink-0 mt-0.5 text-[#3b82f6]" />
-                <span>Mumbai, Maharashtra, India</span>
+                <span>address: 1704, Tower B, Raksha Addela
+                  Gaur City 2, Greater Noida, Uttar Pradesh, India</span>
               </li>
             </ul>
           </div>

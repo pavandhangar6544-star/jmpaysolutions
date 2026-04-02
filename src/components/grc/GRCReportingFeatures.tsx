@@ -91,11 +91,11 @@ export function GRCReportingFeatures() {
           <div className="relative">
             <div className="bg-slate-950 rounded-2xl overflow-hidden shadow-2xl border border-slate-700 p-6">
               <div className="space-y-4">
-                <div className="h-48 bg-gradient-to-br from-emerald-500/20 to-blue-500/20 rounded-xl border border-white/10 flex items-center justify-center">
+                <div className="h-48 bg-gradient-to-br from-emerald-500/20 to-blue-500/20 rounded-xl border border-white/20 flex items-center justify-center">
                   <BarChart3 className="text-emerald-400" size={64} />
                 </div>
                 <div className="grid grid-cols-2 gap-3">
-                  <div className="h-24 bg-white/5 rounded-lg border border-white/10 p-3">
+                  <div className="h-24 bg-white/10 rounded-lg border border-white/20 p-3">
                     <div className="text-slate-400 text-xs mb-2">
                       Compliance Rate
                     </div>
@@ -106,7 +106,7 @@ export function GRCReportingFeatures() {
                       94%
                     </div>
                   </div>
-                  <div className="h-24 bg-white/5 rounded-lg border border-white/10 p-3">
+                  <div className="h-24 bg-white/10 rounded-lg border border-white/20 p-3">
                     <div className="text-slate-400 text-xs mb-2">
                       Open Risks
                     </div>

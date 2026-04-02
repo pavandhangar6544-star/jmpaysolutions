@@ -10,6 +10,8 @@ import {
   Smartphone,
   Tag
 } from 'lucide-react';
+// import VideoPlayer from "./ui/VideoPlayer";
+import VideoPlayer from './ui/VideoPlayer';
 
 const steps = [
   {
@@ -144,16 +146,16 @@ export function WhiteLabelDetailSection() {
             <div className="relative">
               <div className="relative bg-slate-900 rounded-2xl overflow-hidden shadow-2xl border border-slate-700">
                 {/* Video placeholder with checkout flow */}
-                <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center relative">
+                {/* <div className="aspect-video bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center relative"> */}
                   {/* Play button overlay */}
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-sm">
+                  {/* <div className="absolute inset-0 flex items-center justify-center bg-black/20 backdrop-blur-sm">
                     <div className="w-20 h-20 bg-[#1e40af] rounded-full flex items-center justify-center shadow-2xl cursor-pointer hover:scale-110 transition-transform">
                       <Play className="text-white ml-1" size={32} fill="white" />
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Mock checkout screens */}
-                  <div className="absolute inset-0 p-8 flex items-center justify-center opacity-60">
+                  {/* <div className="absolute inset-0 p-8 flex items-center justify-center opacity-60">
                     <div className="bg-white rounded-xl p-6 w-64 shadow-xl">
                       <div className="text-center mb-4">
                         <div className="text-2xl text-[#0f172a]" style={{ fontWeight: 700 }}>₹1,299</div>
@@ -170,14 +172,14 @@ export function WhiteLabelDetailSection() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Floating badges */}
-                  <div className="absolute top-4 left-4 px-3 py-1.5 bg-green-500 text-white rounded-full text-xs flex items-center gap-1" style={{ fontWeight: 600 }}>
+                  {/* <div className="absolute top-4 left-4 px-3 py-1.5 bg-green-500 text-white rounded-full text-xs flex items-center gap-1" style={{ fontWeight: 600 }}>
                     <Shield size={14} />
                     Secure
-                  </div>
-                  <div className="absolute top-4 right-4 px-3 py-1.5 bg-blue-500 text-white rounded-full text-xs flex items-center gap-1" style={{ fontWeight: 600 }}>
+                  </div> */}
+                  {/* <div className="absolute top-4 right-4 px-3 py-1.5 bg-blue-500 text-white rounded-full text-xs flex items-center gap-1" style={{ fontWeight: 600 }}>
                     <Zap size={14} />
                     Fast
                   </div>
@@ -185,23 +187,28 @@ export function WhiteLabelDetailSection() {
                     <Smartphone size={14} />
                     Mobile
                   </div>
-                </div>
+                </div> */}
 
                 {/* Video progress bar */}
-                <div className="bg-slate-800 px-4 py-3 flex items-center gap-3">
+                {/* <div className="bg-slate-800 px-4 py-3 flex items-center gap-3">
                   <div className="flex-1 h-1 bg-slate-700 rounded-full">
                     <div className="w-1/3 h-full bg-[#1e40af] rounded-full"></div>
                   </div>
                   <span className="text-xs text-slate-400">2:15</span>
                 </div>
-              </div>
+              </div> */}
 
               {/* Floating tag */}
-              <div className="absolute -bottom-4 -right-4 px-4 py-2 bg-white rounded-lg shadow-xl border border-slate-200 flex items-center gap-2">
+              {/* <div className="absolute -bottom-4 -right-4 px-4 py-2 bg-white rounded-lg shadow-xl border border-slate-200 flex items-center gap-2">
                 <Tag className="text-[#1e40af]" size={18} />
                 <span className="text-sm text-[#0f172a]" style={{ fontWeight: 600 }}>White-Label</span>
-              </div>
+              </div> */}
+
+            <VideoPlayer src="/Video/video1.mp4"/>
             </div>
+            </div>
+
+            
           </div>
         </div>
       </section>

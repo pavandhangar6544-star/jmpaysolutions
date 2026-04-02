@@ -99,8 +99,8 @@ export function ComplianceManagement() {
 
             <div className="space-y-4 pt-4">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <AlertTriangle className="text-emerald-600" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-emerald-600 to-emerald-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <AlertTriangle className="text-white" size={24} />
                 </div>
                 <div>
                   <h4
@@ -117,8 +117,8 @@ export function ComplianceManagement() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <FileCheck className="text-blue-600" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <FileCheck className="text-white" size={24} />
                 </div>
                 <div>
                   <h4
@@ -135,8 +135,8 @@ export function ComplianceManagement() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <CheckCircle2 className="text-green-600" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <CheckCircle2 className="text-white" size={24} />
                 </div>
                 <div>
                   <h4

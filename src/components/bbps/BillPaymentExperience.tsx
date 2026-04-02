@@ -100,8 +100,8 @@ export function BillPaymentExperience() {
 
             <div className="space-y-4 pt-4">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <FileText className="text-purple-600" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-purple-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <FileText className="text-white" size={24} />
                 </div>
                 <div>
                   <h4
@@ -118,8 +118,8 @@ export function BillPaymentExperience() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Receipt className="text-blue-600" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <Receipt className="text-white" size={24} />
                 </div>
                 <div>
                   <h4
@@ -135,8 +135,8 @@ export function BillPaymentExperience() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <CheckCircle2 className="text-green-600" size={24} />
+                <div className="w-12 h-12 bg-gradient-to-br from-green-600 to-green-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                  <CheckCircle2 className="text-white" size={24} />
                 </div>
                 <div>
                   <h4

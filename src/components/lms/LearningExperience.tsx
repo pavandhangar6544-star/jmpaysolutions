@@ -63,8 +63,8 @@ export function LearningExperience() {
                 const Icon = item.icon;
                 return (
                   <div key={i} className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <Icon className="text-blue-600" size={24} />
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0 hover:scale-110 transition-transform">
+                      <Icon className="text-white" size={24} />
                     </div>
                     <div>
                       <h4
