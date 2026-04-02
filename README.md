@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # IT Services Website Design
 
@@ -9,3 +10,6 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# jmpaysolutions
+>>>>>>> 9fb89eaef892822a65a8113151feb193c79ddd6a
